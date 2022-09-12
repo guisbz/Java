@@ -1,0 +1,25 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import negocio.Colaborador;
+
+public class PrincipalEmpresa {
+ public static void main(String[] args) {
+	//Declaração de variáveis
+	 BufferedReader leitor = new BufferedReader(
+				new InputStreamReader
+				(System.in));
+	 
+	 Colaborador objColaborador = null;
+	 int opcao = 0;
+	 
+	 //Entrada de dados
+	 try {
+		 
+	 } catch (Exception erro) {
+		 System.out.println(erro);
+	 }
+}
+}

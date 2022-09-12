@@ -1,0 +1,18 @@
+package negocio;
+
+public class Gerente extends Colaborador {
+	//Propriedades da classe
+	private double bonus = 0;
+
+	public Gerente() {
+		super();
+	}
+
+	public Gerente(int matricula, String nome, double salario) {
+		super(matricula, nome, salario);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+
+}

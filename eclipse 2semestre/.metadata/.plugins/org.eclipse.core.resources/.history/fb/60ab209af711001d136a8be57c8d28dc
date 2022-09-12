@@ -1,0 +1,23 @@
+package apresentacao;
+
+import negocio.Pessoa;
+
+public class Principal {
+public static void main(String[] args) {
+	Pessoa objeto1 = new Pessoa();
+	
+	objeto1.setNome("Guilherme");
+	objeto1.setEndereco("Brasília sql 10");
+	objeto1.setTelefone(40028922);
+	
+	System.out.println(objeto1.getNome());
+	System.out.println(objeto1.getEndereco());
+	System.out.println(objeto1.getTelefone());
+	
+	Pessoa objeto2 = new Pessoa("Safada","Ceilândia", 321321);
+	System.out.println(objeto2.getNome());
+	System.out.println(objeto2.getEndereco());
+	System.out.println(objeto2.getTelefone());
+	
+}
+}

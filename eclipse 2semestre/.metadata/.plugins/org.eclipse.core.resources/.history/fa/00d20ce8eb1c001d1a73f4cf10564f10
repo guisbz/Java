@@ -1,0 +1,8 @@
+package negocio;
+
+public class Tipo {
+	//Propriedades da classe
+	private String descricao= "";
+	
+
+}

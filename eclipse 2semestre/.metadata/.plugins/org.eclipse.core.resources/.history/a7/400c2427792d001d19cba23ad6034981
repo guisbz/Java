@@ -1,0 +1,20 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import negocio.Mixer;
+
+public class PrincipalBoteco {
+	public static void main(String[] args) {
+		//Declaração de variáveis
+		BufferedReader leitor = new BufferedReader(
+				new InputStreamReader(
+				System.in));
+		
+		Mixer objDrink = null;
+		int opcao = 0;
+		
+	}
+
+}

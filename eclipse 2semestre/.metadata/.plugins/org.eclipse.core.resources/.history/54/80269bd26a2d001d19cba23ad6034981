@@ -1,0 +1,10 @@
+package negocio;
+
+public interface Solido {
+	
+	public double caulcularArea();
+	
+	public double calcularVolume();
+	
+	
+}

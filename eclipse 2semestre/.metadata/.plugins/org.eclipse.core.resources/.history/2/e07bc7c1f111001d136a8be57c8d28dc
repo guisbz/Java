@@ -1,0 +1,20 @@
+package negocio;
+
+public class Pessoa {
+ // Propriedades da classe
+	private String nome = "";
+	private String endereco = "";
+	private int telefone = 0;
+	
+	//Métodos construtores da classe
+	public Pessoa() {}
+	public Pessoa(String nome, String endereco , int telefone) {
+		this.nome = nome;
+		this.endereco = endereco;
+		this.telefone = telefone;
+		
+	}
+	
+	
+	
+}

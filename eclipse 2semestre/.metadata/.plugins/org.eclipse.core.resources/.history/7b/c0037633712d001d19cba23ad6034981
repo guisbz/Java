@@ -1,0 +1,19 @@
+package apresentacao;
+
+public class PrincipalOrdenacao {
+	private static mostrarVetor(int [] vetor) {
+		for (int i = 0; i < vetor.length; i++) {
+			System.out.println(vetor[i] + "\t");;
+		}
+	}
+	
+public static void main(String[] args) {
+	//Declaração de variáveis
+	int[] vetor = new int[50];
+	
+	//Entrada de dados
+	for (int i = 0; i < vetor.length ; i++) {
+		vetor[i] = ((int) (50 * Math.random()));
+	}
+}
+}

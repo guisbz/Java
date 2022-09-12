@@ -1,0 +1,10 @@
+package negocio;
+
+public class Ingrediente {
+//Propriedades da classe
+	private String nome = "";
+	private int quantidade = 0;
+	private String unidade = "";
+	
+	
+}

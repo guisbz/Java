@@ -1,0 +1,36 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+
+import negocio.Colaborador;
+import negocio.Gerente;
+
+public class PrincipalEmpresa {
+ public static void main(String[] args) {
+	//Declaração de variáveis
+	 BufferedReader leitor = new BufferedReader(
+				new InputStreamReader
+				(System.in));
+	 
+	 Colaborador objColaborador = null;
+	 String opcao = "";
+	 
+	 //Entrada de dados
+	 try {
+		 System.out.println("Digite <C> para colaborador ou "
+				 			+ "qualquer coisa para gerente: ");
+		 opcao = leitor.readLine();
+		 
+		 if (opcao.equalsIgnoreCase("C")) {
+			 objColaborador = new Colaborador();
+		 } else {
+			 objColaborador = new Gerente();
+		 }
+		 
+		 
+	 } catch (Exception erro) {
+		 System.out.println(erro);
+	 }
+}
+}

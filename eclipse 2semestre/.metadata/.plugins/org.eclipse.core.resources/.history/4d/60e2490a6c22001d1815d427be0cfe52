@@ -1,0 +1,11 @@
+package apresentacao;
+
+import java.io.BufferedReader;
+
+public class PrincipalEscola {
+	public static void main(String[] args) {
+		//Declaração de variáveis
+		BufferedReader leitor = new BufferedReader(new InputStreamReader(System.in));
+	}
+
+}

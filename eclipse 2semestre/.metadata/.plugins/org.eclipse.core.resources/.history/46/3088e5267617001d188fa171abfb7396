@@ -1,0 +1,36 @@
+package apresentacao;
+
+import java.util.Scanner;
+
+import negocio.Estante;
+import negocio.Produto;
+
+public class Principal {
+	public static void main(String[] args) {
+		
+			//Declaração de variáveis
+			 Scanner leitor = new Scanner(System.in);
+			 
+			 Produto objProduto = new Produto();
+			 
+			 //Entrada de dados
+			 System.out.print("Digite o nome do produto: ");
+			 objProduto.setNome(leitor.nextLine());
+			 
+			 System.out.print("Digite o número da estante: ");
+			 objProduto.setObjEstante(new Estante(leitor.nextInt()));
+			 
+			 System.out.print("Digite a quantidade de produtos: ");
+			 objProduto.setQuantidade(leitor.nextInt());
+			 
+			 leitor.close();
+			 
+			 //Saída de dados
+			 System.out.println("Nome do produto: " + objProduto.getNome());
+			 System.out.println("Estante: " + objProduto.getObjEstante().getNumero());
+			 System.out.println("Quantidade: " + objProduto.getQuantidade());
+			 
+		}
+	
+}
+
